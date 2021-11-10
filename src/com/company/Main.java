@@ -16,6 +16,8 @@ public class Main {
         student.remove(1);
       student.remove(2);
         List<String> student_group_2 = new ArrayList<>(List.copyOf(student));
+        student_group_2.add("Den");
+        student_group_2.add("Maks");
 
     }
 }
