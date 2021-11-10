@@ -13,5 +13,7 @@ public class Main {
         student.add("Olga");
         student.add("Oleg");
         System.out.println(student);
+        System.out.println(student.remove(1));
+        System.out.println(student.remove(2));
     }
 }
