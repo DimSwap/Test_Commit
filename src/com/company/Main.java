@@ -18,6 +18,7 @@ public class Main {
         List<String> student_group_2 = new ArrayList<>(List.copyOf(student));
         student_group_2.add("Den");
         student_group_2.add("Maks");
+        System.out.println(student_group_2.size());
 
     }
 }
