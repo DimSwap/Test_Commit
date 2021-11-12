@@ -23,7 +23,7 @@ public class Main {
         student_group_2.add("Den");
         student_group_2.add("Maks");
         System.out.println(student_group_2);
-        System.out.println("размер"+student_group_2.size());
+        System.out.println("размер "+student_group_2.size());
         System.out.println("==========================================");
         Map<Integer, Object> map = new HashMap<>();
         for (int i = 0; i < 5; i++) {
@@ -32,6 +32,14 @@ public class Main {
             System.out.println(map+" hashCode = "+map.hashCode()+";");
             map.clear();
         }
+        System.out.println("==========================================");
+        List<String> subject = new ArrayList<>(List.copyOf(student));
+        subject.add("ОП");
+        subject.add("ТФГТ");
+        subject.add("Высш Мат");
+        subject.add("История");
+        System.out.println(subject);
+        System.out.println("размер "+subject.size());
         System.out.println("==========================================");
     }
 
